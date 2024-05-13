@@ -1,0 +1,98 @@
+/* Font Family */
+body, h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Times New Roman', Times, serif;
+    color: #000; /* Set the default text color */
+}
+
+h1 {
+    font-size: 24px;
+    border-bottom: 3px solid #468fa2;
+}
+
+h2 {
+    font-size: 20px;
+    border-bottom: 3px solid #468fa2;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #468fa2; 
+    text-decoration: none; 
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+    background-color: #468fa2;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Section */
+.section {
+    border-top: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Projects */
+.projects {
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+/* Attachments Images */
+.attachments-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.attachments-images img {
+    width: 30%;
+    margin: 10px;
+}
+
+/* Socials and Emails */
+.socials-emails {
+    width: calc(50% - 10px); /* Adjust width to 50% of the container minus margins */
+    margin-right: 10px;
+}
+
+/* Video Template */
+.video-template {
+    width: calc(50% - 10px); /* Adjust width to 50% of the container minus margins */
+    margin-left: 10px;
+    float: right; /* Align to the right */
+}
